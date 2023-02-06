@@ -1,7 +1,25 @@
 <div class='container text-center'>
 
-<h1 >List of components</h1>
+<h1 >NewEntries</h1>
  <div *ngFor='let blog of blogs'>
+   
+   
     <div>{{blog.title}}</div>
  </div>
+ <body>
+   <select name="cars" id="cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="mercedes">Mercedes</option>
+      <option value="audi">Audi</option>
+    </select>
+    
+   <form action="/action_page.php">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+ </body>
 </div>

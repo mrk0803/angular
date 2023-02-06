@@ -3,12 +3,16 @@ button{
     width: 100px;
     height: 60px;
     background-color: coral;
-    color: beige;
+    color: rgb(141, 141, 26);
     font-size: 20px;
     
 }
 p {
     font-size: large;
     font-style: italic;
+}
+
+h1{
+    size: 1cm;
 }
 
